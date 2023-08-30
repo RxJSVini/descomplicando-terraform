@@ -1,0 +1,4 @@
+node_modules/
+.terraform.lock.hcl
+.env
+.terraform
