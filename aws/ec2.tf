@@ -9,7 +9,8 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Ubuntu
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "web-west-2" {
+  provider = aws.west-2
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t2.micro"
 
