@@ -25,8 +25,6 @@ https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-se
 
 
 
-
-
 # Minha configuração
 
 export AZ_APP_ID=

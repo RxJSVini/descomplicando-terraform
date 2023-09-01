@@ -22,6 +22,5 @@ RUN wget "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" && \
     ./aws/install && \
     rm -rf aws
 
-RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
 
 CMD ["/bin/bash"]

@@ -1,0 +1,1 @@
+az login --service-principal -u $AZ_APP_ID -p $AZ_APP_SECRET --tenant $AZ_TENANT_ID
