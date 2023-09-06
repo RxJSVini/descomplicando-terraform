@@ -13,3 +13,6 @@ docker container run -v %cd%\aws:/home -it terraform_aws bash
     export AWS_ACCESS_KEY_ID=
     export AWS_SECRET_ACCESS_KEY=
 
+# Imagens 
+
+https://cloud-images.ubuntu.com/locator/ec2/

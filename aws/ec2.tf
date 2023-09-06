@@ -15,6 +15,6 @@ resource "aws_instance" "web-west-2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Elliot"
+    Name = "HelloWorld"
   }
 }

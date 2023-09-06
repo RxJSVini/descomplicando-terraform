@@ -1,5 +1,18 @@
 # Fundamentos do terraform:
 
+*** Providers: *** Essas são as "lojas" onde compramos nossos recursos, como AWS, Azure, ou Google Cloud. É como escolher uma loja de brinquedos para comprar seus blocos de construção.
+
+*** Resources: *** São os recursos que você cria em sua infraestrutura, como máquinas virtuais, bancos de dados, redes, e muito mais. Cada recurso tem suas próprias configurações, como o tamanho de uma peça de lego.
+
+HCL (HashiCorp Configuration Language): É a linguagem que usamos para escrever nosso código Terraform. É simples e fácil de entender, como contar nos dedos.
+
+*** State: *** O Terraform mantém um registro de tudo o que você construiu. É como fazer um inventário de todos os seus brinquedos.
+
+*** Plan & Apply: *** Antes de construir algo, você planeja como ele será e depois aplica esse plano. É como fazer um desenho e, em seguida, montar seu conjunto de lego.
+
+*** Modules: *** Módulos são como instruções de montagem para seus brinquedos. Você pode reutilizá-los para construir coisas semelhantes mais facilmente.
+
+
 ### Blocos
 No Terraform, os blocos são a estrutura básica para definir recursos, configurações e estruturas. Eles são delimitados por chaves {}. Um bloco começa com a declaração do tipo (por exemplo, provider, resource, variable) e contém os argumentos relevantes para esse tipo. Por exemplo, um bloco de recurso define um recurso específico, como uma instância de máquina virtual ou um banco de dados.
 
@@ -28,7 +41,7 @@ Os identificadores são usados para nomear e referenciar recursos e outros eleme
 
 Comentários são usados para adicionar explicações ou notas ao código, mas não têm impacto na execução do Terraform. Eles são precedidos por # e podem ser usados em uma linha ou em várias linhas.
 
-***Isso é um comentário em uma única linha***
+*** Isso é um comentário em uma única linha ***
 
 /*
   Este é um comentário
